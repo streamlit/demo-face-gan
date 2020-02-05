@@ -1,11 +1,9 @@
-import glob
 import numpy as np
 import os
 import pickle
 import streamlit as st
 import sys
 import tensorflow as tf
-import PIL
 import urllib
 
 sys.path.append('tl_gan')

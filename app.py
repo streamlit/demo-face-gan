@@ -12,14 +12,13 @@ import feature_axis
 import tfutil
 
 def main():
+    st.title("Streamlit Face-GAN Demo")
     for filename in EXTERNAL_DEPENDENCIES.keys():
         download_file(filename)
-
-    st.title("Streamlit Face-GAN Demo")
-    session, pg_gan_model = load_pg_gan_model()
     tl_gan_model, feature_names = load_tl_gan_model()
-
     features = get_random_features(feature_names)
+    session, pg_gan_model = load_pg_gan_model()
+
     st.sidebar.title('Features')
     features['Young'] = st.sidebar.slider('Young', 0, 100, 50, 5)
     features['Male'] = st.sidebar.slider('Male', 0, 100, 50, 5)

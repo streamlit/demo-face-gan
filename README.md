@@ -9,8 +9,10 @@ The Streamlit app is [implemented in only 150 lines of Python](https://github.co
 The demo requires a CUDA-compatible GPU and Python 3.6 (TensorFlow is not yet compatible with later versions). We suggest creating a new virtual Python 3.6 environment, then running:
 
 ```
-pip install --upgrade streamlit==0.53 tensorflow==1.13.1 tensorflow-gpu==1.13.1
-streamlit run https://raw.githubusercontent.com/streamlit/demo-face-gan/master/app.py
+git clone https://github.com/streamlit/demo-face-gan.git
+cd demo-face-gan
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
 ### Questions? Comments?

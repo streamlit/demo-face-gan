@@ -8,7 +8,7 @@ import urllib
 
 sys.path.append('tl_gan')
 sys.path.append('pg_gan')
-import tl_gan.feature_axis as feature_axis
+import feature_axis
 import tfutil
 
 def main():

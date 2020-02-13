@@ -26,7 +26,6 @@ def main():
 
     image_out = generate_image(session, pg_gan_model, tl_gan_model,
             features, feature_names)
-
     st.image(image_out, width=400)
 
 def download_file(file_path):
@@ -132,11 +131,10 @@ FEATURE_DIRECTION_FILE = "feature_direction_2018102_044444.pkl"
 MODEL_FILE = "karras2018iclr-celebahq-1024x1024.pkl"
 EXTERNAL_DEPENDENCIES = {
     "feature_direction_2018102_044444.pkl" : {
-        "url": "https://www.dropbox.com/sh/y1ryg8iq1erfcsr/AADZVwMYXdX88cyBDkx85WdHa/asset_results/pg_gan_celeba_feature_direction_40/feature_direction_20181002_044444.pkl?dl=1",
+        "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/feature_direction_20181002_044444.pkl",
         "size": 164742
     },
     "karras2018iclr-celebahq-1024x1024.pkl": {
-#        "url": "https://drive.google.com/open?id=188K19ucknC6wg1R6jbuPEhTq9zoufOx4",
         "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/karras2018iclr-celebahq-1024x1024.pkl",
         "size": 277043647
     }

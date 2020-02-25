@@ -10,6 +10,7 @@ sys.path.append('tl_gan')
 sys.path.append('pg_gan')
 import feature_axis
 import tfutil
+import tfutil_cpu
 
 def main():
     st.title("Streamlit Face-GAN Demo")
@@ -74,9 +75,9 @@ def load_pg_gan_model():
     session = tf.Session(config=config)
 
     with session.as_default():
-        with open(MODEL_FILE, 'rb') as f:
-            G, D, Gs = pickle.load(f)
-    return session, Gs
+        with open(MODEL_FILE_GPU if USE_GPU else MODEL_FILE_CPU, 'rb') as f:
+            G = pickle.load(f)
+    return session, G
 
 @st.cache
 def load_tl_gan_model():
@@ -106,7 +107,7 @@ def get_random_features(feature_names):
     features = dict((name, 40+np.random.randint(0,21)) for name in feature_names)
     return features
 
-@st.cache(hash_funcs={tf.Session : id, tfutil.Network : id}, show_spinner=False)
+@st.cache(hash_funcs={tf.Session : id, tfutil_cpu.Network : id}, show_spinner=False)
 def generate_image(session, pg_gan_model, tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.
@@ -124,11 +125,14 @@ def generate_image(session, pg_gan_model, tl_gan_model, features, feature_names)
     # Rescale and reorient the GAN's output to make an image
     images = np.clip(np.rint((images + 1.0) / 2.0 * 255.0),
                               0.0, 255.0).astype(np.uint8)  # [-1,1] => [0,255]
-    images = images.transpose(0, 2, 3, 1)  # NCHW => NHWC
+    if USE_GPU:
+        images = images.transpose(0, 2, 3, 1)  # NCHW => NHWC
     return images[0]
 
+USE_GPU = False
 FEATURE_DIRECTION_FILE = "feature_direction_2018102_044444.pkl"
-MODEL_FILE = "karras2018iclr-celebahq-1024x1024.pkl"
+MODEL_FILE_GPU = "karras2018iclr-celebahq-1024x1024-condensed.pkl"
+MODEL_FILE_CPU = "karras2018iclr-celebahq-1024x1024-condensed-cpu.pkl"
 EXTERNAL_DEPENDENCIES = {
     "feature_direction_2018102_044444.pkl" : {
         "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/feature_direction_20181002_044444.pkl",

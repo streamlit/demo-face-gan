@@ -138,9 +138,13 @@ EXTERNAL_DEPENDENCIES = {
         "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/feature_direction_20181002_044444.pkl",
         "size": 164742
     },
-    "karras2018iclr-celebahq-1024x1024.pkl": {
-        "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/karras2018iclr-celebahq-1024x1024.pkl",
-        "size": 277043647
+    "karras2018iclr-celebahq-1024x1024-condensed.pkl": {
+        "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/karras2018iclr-celebahq-1024x1024-condensed.pkl",
+        "size": 92338293
+    },
+    "karras2018iclr-celebahq-1024x1024-condensed-cpu.pkl": {
+        "url": "https://streamlit-demo-data.s3-us-west-2.amazonaws.com/facegan/karras2018iclr-celebahq-1024x1024-condensed-cpu.pkl",
+        "size": 92340233
     }
 }
 

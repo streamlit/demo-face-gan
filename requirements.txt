@@ -12,5 +12,4 @@ moviepy>=0.2.3.5
 scikit_learn>=0.20.0
 opencv-python>=3.4.0.12
 tensorflow==1.13.1
-tensorflow-gpu==1.13.1
 streamlit==0.53

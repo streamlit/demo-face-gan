@@ -107,7 +107,7 @@ def get_random_features(feature_names):
     features = dict((name, 40+np.random.randint(0,21)) for name in feature_names)
     return features
 
-@st.cache(hash_funcs={tf.Session : id, tfutil_cpu.Network : id}, show_spinner=False)
+@st.cache(hash_funcs={tf.Session : id, tfutil.Network : id, tfutil_cpu.Network : id}, show_spinner=False)
 def generate_image(session, pg_gan_model, tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.

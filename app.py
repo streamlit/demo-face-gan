@@ -17,13 +17,19 @@ def main():
     for filename in EXTERNAL_DEPENDENCIES.keys():
         download_file(filename)
     tl_gan_model, feature_names = load_tl_gan_model()
-    features = get_random_features(feature_names)
     session, pg_gan_model = load_pg_gan_model()
 
     st.sidebar.title('Features')
-    features['Young'] = st.sidebar.slider('Young', 0, 100, 50, 5)
-    features['Male'] = st.sidebar.slider('Male', 0, 100, 50, 5)
-    features['Smiling'] = st.sidebar.slider('Smiling', 0, 100, 50, 5)
+    seed = st.sidebar.text_input("Random seed", "27834072943")
+    seed_int = int("0" + ''.join(x for x in seed if x.isdigit())) % 2**32
+    features = get_random_features(feature_names, seed_int)
+    control_features = st.sidebar.multiselect(
+        'Which features to control?',
+        sorted(features),
+        ['Young','Smiling','Male']
+    )
+    for feature in control_features:
+        features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
     image_out = generate_image(session, pg_gan_model, tl_gan_model,
             features, feature_names)
@@ -99,15 +105,16 @@ def load_tl_gan_model():
     return feature_direction_disentangled, feature_names
 
 @st.cache(allow_output_mutation=True)
-def get_random_features(feature_names):
+def get_random_features(feature_names, seed):
     """
     Return a random dictionary from feature names to feature
     values within the range [40,60] (out of [0,100]).
     """
+    np.random.seed(seed)
     features = dict((name, 40+np.random.randint(0,21)) for name in feature_names)
     return features
 
-@st.cache(hash_funcs={tf.Session : id, tfutil_cpu.Network : id}, show_spinner=False)
+@st.cache(hash_funcs={tf.Session : id, tfutil.Network : id, tfutil_cpu.Network : id}, show_spinner=False)
 def generate_image(session, pg_gan_model, tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.

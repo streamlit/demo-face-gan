@@ -27,15 +27,14 @@ def main():
     session, pg_gan_model = load_pg_gan_model()
 
     st.sidebar.title('Features')
-    basic_seed = 27834096
+    seed = 27834096
     default_control_features = ['Young','Smiling','Male']
     if st.sidebar.checkbox('Show advanced options'):
-        seed = st.sidebar.number_input("Random seed", value=basic_seed)
         features = get_random_features(feature_names, seed)
         control_features = st.sidebar.multiselect( 'Control which features?',
             sorted(features), default_control_features)
     else:
-        features = get_random_features(feature_names, basic_seed)
+        features = get_random_features(feature_names, seed)
         control_features = default_control_features
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)

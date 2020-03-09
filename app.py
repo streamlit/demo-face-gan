@@ -31,7 +31,6 @@ def main():
     default_control_features = ['Young','Smiling','Male']
     if st.sidebar.checkbox('Show advanced options'):
         seed = st.sidebar.number_input("Random seed", value=basic_seed)
-    # seed_int = int("0" + ''.join(x for x in seed if x.isdigit())) % 2**32
         features = get_random_features(feature_names, seed)
         control_features = st.sidebar.multiselect( 'Control which features?',
             sorted(features), default_control_features)

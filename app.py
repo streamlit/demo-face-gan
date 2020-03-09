@@ -12,6 +12,13 @@ import feature_axis
 import tfutil
 import tfutil_cpu
 
+# These are all types which should not be hashed by Streamlit.
+TL_GAN_HASH_FUNCS = {
+    tf.Session : id,
+    tfutil.Network : id,
+    tfutil_cpu.Network : id
+}
+
 def main():
     st.title("Streamlit Face-GAN Demo")
     for filename in EXTERNAL_DEPENDENCIES.keys():
@@ -20,20 +27,23 @@ def main():
     session, pg_gan_model = load_pg_gan_model()
 
     st.sidebar.title('Features')
-    seed = st.sidebar.text_input("Random seed", "27834072943")
-    seed_int = int("0" + ''.join(x for x in seed if x.isdigit())) % 2**32
-    features = get_random_features(feature_names, seed_int)
-    control_features = st.sidebar.multiselect(
-        'Which features to control?',
-        sorted(features),
-        ['Young','Smiling','Male']
-    )
+    basic_seed = 27834096
+    default_control_features = ['Young','Smiling','Male']
+    if st.sidebar.checkbox('Show advanced options'):
+        seed = st.sidebar.number_input("Random seed", value=basic_seed)
+    # seed_int = int("0" + ''.join(x for x in seed if x.isdigit())) % 2**32
+        features = get_random_features(feature_names, seed)
+        control_features = st.sidebar.multiselect( 'Control which features?',
+            sorted(features), default_control_features)
+    else:
+        features = get_random_features(feature_names, basic_seed)
+        control_features = default_control_features
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
     image_out = generate_image(session, pg_gan_model, tl_gan_model,
             features, feature_names)
-    st.image(image_out, width=400)
+    st.image(image_out, use_column_width=True)
 
 def download_file(file_path):
     # Don't download the file twice. (If possible, verify the download using the file length.)
@@ -72,7 +82,7 @@ def download_file(file_path):
         if progress_bar is not None:
             progress_bar.empty()
 
-@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True, hash_funcs=TL_GAN_HASH_FUNCS)
 def load_pg_gan_model():
     """
     Create the tensorflow session.
@@ -85,7 +95,7 @@ def load_pg_gan_model():
             G = pickle.load(f)
     return session, G
 
-@st.cache
+@st.cache(hash_funcs=TL_GAN_HASH_FUNCS)
 def load_tl_gan_model():
     """
     Load the linear model (matrix) which maps the feature space
@@ -104,7 +114,7 @@ def load_tl_gan_model():
             idx_base=np.flatnonzero(feature_lock_status))
     return feature_direction_disentangled, feature_names
 
-@st.cache(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True, hash_funcs=TL_GAN_HASH_FUNCS)
 def get_random_features(feature_names, seed):
     """
     Return a random dictionary from feature names to feature
@@ -114,7 +124,7 @@ def get_random_features(feature_names, seed):
     features = dict((name, 40+np.random.randint(0,21)) for name in feature_names)
     return features
 
-@st.cache(hash_funcs={tf.Session : id, tfutil.Network : id, tfutil_cpu.Network : id}, show_spinner=False)
+@st.cache(show_spinner=False, hash_funcs=TL_GAN_HASH_FUNCS)
 def generate_image(session, pg_gan_model, tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.

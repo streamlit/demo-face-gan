@@ -36,6 +36,8 @@ def main():
     else:
         features = get_random_features(feature_names, seed)
         control_features = default_control_features
+    
+    # Apply the user controls to the feature vector.
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
@@ -112,7 +114,6 @@ def load_tl_gan_model():
             idx_base=np.flatnonzero(feature_lock_status))
     return feature_direction_disentangled, feature_names
 
-@st.cache(allow_output_mutation=True, hash_funcs=TL_GAN_HASH_FUNCS)
 def get_random_features(feature_names, seed):
     """
     Return a random dictionary from feature names to feature

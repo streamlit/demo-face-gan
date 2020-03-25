@@ -3,7 +3,7 @@ This project highlights Streamlit's new `hash_func` feature with an app that cal
 
 The Streamlit app is [implemented in only 150 lines of Python](https://github.com/streamlit/demo-face-gan/blob/master/app.py) and demonstrates the wide new range of objects that can be used safely and efficiently in Streamlit apps with `hash_func`. 
 
-![In-use Animation](https://github.com/streamlit/demo-face-gan/blob/master/demo.gif?raw=true "In-use Animation")
+![In-use Animation](https://github.com/streamlit/demo-face-gan/blob/master/GAN-demo.gif?raw=true "In-use Animation")
 
 ## How to run this demo
 The demo requires a CUDA-compatible GPU and Python 3.6 (TensorFlow is not yet compatible with later versions). **We suggest creating a new virtual Python 3.6 environment**, then running:

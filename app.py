@@ -14,9 +14,7 @@ import tfutil_cpu
 
 # These are all types which should not be hashed by Streamlit.
 TL_GAN_HASH_FUNCS = {
-    tf.Session : id,
-    tfutil.Network : id,
-    tfutil_cpu.Network : id
+    tf.Session : id
 }
 
 def main():
@@ -36,13 +34,15 @@ def main():
     else:
         features = get_random_features(feature_names, seed)
         control_features = default_control_features
-    
+
     # Apply the user controls to the feature vector.
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
-    image_out = generate_image(session, pg_gan_model, tl_gan_model,
-            features, feature_names)
+    with session.as_default():
+        image_out = generate_image(session, pg_gan_model, tl_gan_model,
+                features, feature_names)
+
     st.image(image_out, use_column_width=True)
 
 def download_file(file_path):

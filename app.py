@@ -12,7 +12,7 @@ import feature_axis
 import tfutil
 import tfutil_cpu
 
-# These are all types which should not be hashed by Streamlit.
+# These are all the types which should not be hashed by Streamlit when using st.cache.
 TL_GAN_HASH_FUNCS = {
     tf.Session : id,
     tfutil.Network : id,

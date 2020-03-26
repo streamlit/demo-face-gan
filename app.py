@@ -14,9 +14,7 @@ import tfutil_cpu
 
 # These are all the types which should not be hashed by Streamlit when using st.cache.
 TL_GAN_HASH_FUNCS = {
-    tf.Session : id,
-    tfutil.Network : id,
-    tfutil_cpu.Network : id
+    tf.Session : id
 }
 
 def main():
@@ -49,8 +47,10 @@ def main():
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
     # Generate a new image from this feature vector (or retrieve it from the cache).
-    image_out = generate_image(session, pg_gan_model, tl_gan_model,
-            features, feature_names)
+    with session.as_default():
+        image_out = generate_image(session, pg_gan_model, tl_gan_model,
+                features, feature_names)
+
     st.image(image_out, use_column_width=True)
 
 def download_file(file_path):

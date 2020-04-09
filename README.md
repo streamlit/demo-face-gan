@@ -17,4 +17,4 @@ streamlit run app.py
 
 ### Questions? Comments?
 
-Please ask in the [Streamlit community](https://discuss.streamlit.io).
+Please ask in the [Streamlit community](https://discuss.streamlit.io) or [check out our article](https://towardsdatascience.com/build-an-app-to-synthesize-photorealistic-faces-using-tensorflow-and-streamlit-dd2545828021).

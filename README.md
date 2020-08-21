@@ -15,6 +15,10 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Questions? Comments?
+## Model Bias 
+
+Playing with the sliders you will find biases that exist in this model. For example, moving the smiling slider can cause a man to turn into a woman, or a white-skinned man to turn dark-skinned. Apps like these help you find these biases so you can address them in your model.
+
+## Questions? Comments?
 
 Please ask in the [Streamlit community](https://discuss.streamlit.io) or [check out our article](https://towardsdatascience.com/build-an-app-to-synthesize-photorealistic-faces-using-tensorflow-and-streamlit-dd2545828021).

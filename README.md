@@ -17,7 +17,7 @@ streamlit run app.py
 
 ## Model Bias 
 
-Playing with the sliders you will find biases that exist in this model. For example, moving the smiling slider can cause a man to turn into a woman, or a white-skinned man to turn dark-skinned. Apps like these help you find these biases so you can address them in your model.
+Playing with the sliders, you _will_ find biases that exist in this model. For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production.
 
 ## Questions? Comments?
 

@@ -19,7 +19,11 @@ TL_GAN_HASH_FUNCS = {
 
 def main():
     st.title("Streamlit Face-GAN Demo")
-    # Download all data files if they aren't already in the working directory.
+    """This demo demonstrates  using [Nvidia's Progressive Growing of GANs](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of) and 
+    Shaobo Guan's [Transparent Latent-space GAN method](https://blog.insightdatascience.com/generating-custom-photo-realistic-faces-using-ai-d170b1b59255) 
+    for tuning the output face's characteristics. For more information, check out the tutorial on [Towards Data Science](https://towardsdatascience.com/building-machine-learning-apps-with-streamlit-667cef3ff509)."""
+
+        # Download all data files if they aren't already in the working directory.
     for filename in EXTERNAL_DEPENDENCIES.keys():
         download_file(filename)
 
@@ -52,6 +56,11 @@ def main():
                 features, feature_names)
 
     st.image(image_out, use_column_width=True)
+
+    """Note: Playing with the sliders, you _will_ find biases that exist in this model. For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. 
+    
+    Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production."""
+
 
 def download_file(file_path):
     # Don't download the file twice. (If possible, verify the download using the file length.)

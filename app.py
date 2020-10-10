@@ -50,16 +50,28 @@ def main():
     for feature in control_features:
         features[feature] = st.sidebar.slider(feature, 0, 100, 50, 5)
 
+
+    st.sidebar.title('Note')
+    st.sidebar.write(
+        """Playing with the sliders, you _will_ find **biases** that exist in this model.
+        """
+    )
+    st.sidebar.write(
+        """For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. 
+        """
+    )
+    st.sidebar.write(
+        """Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production.
+        """
+    )
+
+
     # Generate a new image from this feature vector (or retrieve it from the cache).
     with session.as_default():
         image_out = generate_image(session, pg_gan_model, tl_gan_model,
                 features, feature_names)
 
     st.image(image_out, use_column_width=True)
-
-    """Note: Playing with the sliders, you _will_ find biases that exist in this model. For example, moving the `Smiling` slider can turn a face from masculine to feminine or from lighter skin to darker. 
-    
-    Apps like these that allow you to visually inspect model inputs help you find these biases so you can address them in your model _before_ it's put into production."""
 
 
 def download_file(file_path):

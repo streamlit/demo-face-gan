@@ -23,7 +23,7 @@ def main():
     Shaobo Guan's [Transparent Latent-space GAN method](https://blog.insightdatascience.com/generating-custom-photo-realistic-faces-using-ai-d170b1b59255) 
     for tuning the output face's characteristics. For more information, check out the tutorial on [Towards Data Science](https://towardsdatascience.com/building-machine-learning-apps-with-streamlit-667cef3ff509)."""
 
-        # Download all data files if they aren't already in the working directory.
+    # Download all data files if they aren't already in the working directory.
     for filename in EXTERNAL_DEPENDENCIES.keys():
         download_file(filename)
 
@@ -35,12 +35,18 @@ def main():
     seed = 27834096
     # If the user doesn't want to select which features to control, these will be used.
     default_control_features = ['Young','Smiling','Male']
+
     if st.sidebar.checkbox('Show advanced options'):
         # Randomly initialize feature values. 
         features = get_random_features(feature_names, seed)
+
+        # Some features are badly calibrated and biased. Removing them
+        block_list = ['Attractive', 'Big_Lips', 'Big_Nose', 'Pale_Skin']
+        sanitized_features = [feature for feature in features if feature not in block_list]
+        
         # Let the user pick which features to control with sliders.
         control_features = st.sidebar.multiselect( 'Control which features?',
-            sorted(features), default_control_features)
+            sorted(sanitized_features), default_control_features)
     else:
         features = get_random_features(feature_names, seed)
         # Don't let the user pick feature values to control.

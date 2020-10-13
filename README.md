@@ -12,7 +12,7 @@ The demo requires Python 3.6 or 3.7 (The version of TensorFlow we specify in [re
 git clone https://github.com/streamlit/demo-face-gan.git
 cd demo-face-gan
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 ## Model Bias 

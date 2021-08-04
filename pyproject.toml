@@ -8,6 +8,7 @@ authors = ["Adrien Treuille <adrien.g.treuille@gmail.com>"]
 python = ">=3.6,<=3.7"
 streamlit = ">=0.85.1"
 tensorflow = ">=1.15.4,<2.0"
+scikit_learn = ">=0.20.0"
 
 [tool.poetry.dev-dependencies]
 black = "*"  # Pretty formatting of Python code
@@ -42,7 +43,6 @@ secondary = false
 # # keras>=2.2.4
 # # lmdb>=0.94
 # # moviepy>=0.2.3.5
-# # scikit_learn = ">=0.20.0"
 # # opencv-python>=3.4.0.12
 # # tensorflow = ">=1.15.4,<2.0"
 

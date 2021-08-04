@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "demo-face-gan"
+version = "0.1.0"
+description = "Demonstrates creating faces with a GAN"
+authors = ["Adrien Treuille <adrien.g.treuille@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<=3.7"
+streamlit = ">=0.85.1"
+tensorflow = ">=1.15.4,<2.0"
+
+[tool.poetry.dev-dependencies]
+black = "*"  # Pretty formatting of Python code
+pynvim = "*" # Allows nvim users to use black formatting
+
+[[tool.poetry.source]]
+name = 'default'
+url = 'https://pypi.python.org/simple'
+# url = 'https://pypi.org/simple'
+# verify_ssl = true
+secondary = false
+
+# # pytest = "^3.4"
+
+# [[source]]
+# url = "https://pypi.org/simple"
+# verify_ssl = true
+# name = "pypi"
+
+# [packages]
+
+# streamlit = "*"
+
+# # matplotlib>=2.2.2
+# # six>=1.11.0
+# # scipy = ">=1.1.0"
+# # h5py>=2.7.1
+# # pandas>=0.22.0
+# # numpy>=1.15.1
+# # cryptography>=2.1.4
+# # Pillow>=5.3.0
+# # keras>=2.2.4
+# # lmdb>=0.94
+# # moviepy>=0.2.3.5
+# # scikit_learn = ">=0.20.0"
+# # opencv-python>=3.4.0.12
+# # tensorflow = ">=1.15.4,<2.0"
+
+# [dev-packages]
+# black = "*"  # Pretty formatting of Python code
+# pynvim = "*" # Allows nvim users to use black formatting
+
+# [pipenv]
+# allow_prereleases = true

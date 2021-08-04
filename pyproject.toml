@@ -7,7 +7,7 @@ authors = ["Adrien Treuille <adrien.g.treuille@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.6,<=3.7"
 streamlit = ">=0.85.1"
-tensorflow = ">=1.15.4,<2.0"
+tensorflow = ">=1.15.4,<3.0"
 scikit_learn = ">=0.20.0"
 
 [tool.poetry.dev-dependencies]

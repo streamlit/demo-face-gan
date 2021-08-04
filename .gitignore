@@ -1,3 +1,4 @@
 *.pkl
 __pycache__
 .vscode
+.vim

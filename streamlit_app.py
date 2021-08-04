@@ -77,7 +77,7 @@ def main():
         production.
         """
     )
-    st.sidebar.caption(f"Streamlit `v{st.__version__}`")
+    st.sidebar.caption(f"Streamlit version `{st.__version__}`")
 
     # Generate a new image from this feature vector (or retrieve it from the cache).
     with session.as_default():

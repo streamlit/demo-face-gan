@@ -12,9 +12,6 @@ import feature_axis
 import tfutil
 import tfutil_cpu
 
-# This should not be hashed by Streamlit when using st.cache.
-#TL_GAN_HASH_FUNCS = {tf.Session: id}
-
 
 def main():
     st.title("Streamlit Face-GAN Demo")
@@ -131,7 +128,6 @@ def download_file(file_path):
 
 
 # Ensure that load_pg_gan_model is called only once, when the app first loads.
-#@st.cache(allow_output_mutation=True, hash_funcs=TL_GAN_HASH_FUNCS)
 @st.experimental_singleton()
 def load_pg_gan_model():
     """
@@ -150,7 +146,6 @@ def load_pg_gan_model():
 
 
 # Ensure that load_tl_gan_model is called only once, when the app first loads.
-#@st.cache(hash_funcs=TL_GAN_HASH_FUNCS)
 @st.experimental_singleton()
 def load_tl_gan_model():
     """
@@ -185,8 +180,7 @@ def get_random_features(feature_names, seed):
 
 # Hash the TensorFlow session, the pg-GAN model, and the TL-GAN model by id
 # to avoid expensive or illegal computations.
-#@st.cache(show_spinner=False, hash_funcs=TL_GAN_HASH_FUNCS)
-@st.experimental_memo(ttl=60*60)
+@st.experimental_memo(show_spinner=False, ttl=60*60)
 def generate_image(_session, _pg_gan_model, _tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.
@@ -197,7 +191,7 @@ def generate_image(_session, _pg_gan_model, _tl_gan_model, features, feature_nam
     # Multiply by Shaobo's matrix to get the latent variables.
     latents = np.dot(_tl_gan_model, feature_values)
     latents = latents.reshape(1, -1)
-    dummies = np.zeros([1] + _pg_gan_model.input_shapes[1][1:])
+    dummies = np.zeros([1] _+ pg_gan_model.input_shapes[1][1:])
     # Feed the latent vector to the GAN in TensorFlow.
     with _session.as_default():
         images = _pg_gan_model.run(latents, dummies)

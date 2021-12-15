@@ -191,7 +191,7 @@ def generate_image(_session, _pg_gan_model, _tl_gan_model, features, feature_nam
     # Multiply by Shaobo's matrix to get the latent variables.
     latents = np.dot(_tl_gan_model, feature_values)
     latents = latents.reshape(1, -1)
-    dummies = np.zeros([1] _+ pg_gan_model.input_shapes[1][1:])
+    dummies = np.zeros([1] + _pg_gan_model.input_shapes[1][1:])
     # Feed the latent vector to the GAN in TensorFlow.
     with _session.as_default():
         images = _pg_gan_model.run(latents, dummies)

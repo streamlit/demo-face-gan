@@ -180,7 +180,7 @@ def get_random_features(feature_names, seed):
 
 # Hash the TensorFlow session, the pg-GAN model, and the TL-GAN model by id
 # to avoid expensive or illegal computations.
-@st.experimental_memo(show_spinner=False, ttl=60*60)
+@st.experimental_memo(show_spinner=False, ttl=24*60*60)
 def generate_image(_session, _pg_gan_model, _tl_gan_model, features, feature_names):
     """
     Converts a feature vector into an image.

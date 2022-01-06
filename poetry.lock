@@ -1517,7 +1517,7 @@ reference = 'default'
 
 [[package]]
 name = "streamlit"
-version = "0.85.1"
+version = "1.2.0"
 description = "The fastest way to build data apps in Python"
 category = "main"
 optional = false
@@ -2796,8 +2796,8 @@ smmap = [
     {file = "smmap-4.0.0.tar.gz", hash = "sha256:7e65386bd122d45405ddf795637b7f7d2b532e7e401d46bbe3fb49b9986d5182"},
 ]
 streamlit = [
-    {file = "streamlit-0.85.1-py2.py3-none-any.whl", hash = "sha256:a39832915624641482878558bf366be99d40fd460167e24c204e4c12f64fcf4f"},
-    {file = "streamlit-0.85.1.tar.gz", hash = "sha256:b94b1ab701fee40826927834a080e35e16ef507d5b421132863a2e4c9d850429"},
+    {file = "streamlit-1.2.0-py2.py3-none-any.whl", hash = "sha256:36846f56973f019c980a65739fcd6b621591a0c5aae1caee959b238b1432ebb7"},
+    {file = "streamlit-1.2.0.tar.gz", hash = "sha256:f13f7463d53fb866a1d07dccfacb60333c56dc9f34b001f310475beee71a08a5"},
 ]
 tensorboard = [
     {file = "tensorboard-1.15.0-py2-none-any.whl", hash = "sha256:612b789386aa1b2c4804e1961273b37f8e4dd97613f98bc90ff0402d24627f50"},

@@ -12,7 +12,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "altair"
@@ -36,7 +36,7 @@ dev = ["black", "docutils", "ipython", "flake8", "pytest", "sphinx", "m2r", "veg
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "appdirs"
@@ -49,7 +49,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "appnope"
@@ -62,7 +62,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "argon2-cffi"
@@ -84,7 +84,7 @@ tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "astor"
@@ -97,7 +97,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "async-generator"
@@ -110,7 +110,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "attrs"
@@ -129,7 +129,7 @@ tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "backcall"
@@ -142,7 +142,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "base58"
@@ -158,7 +158,7 @@ tests = ["pytest (>=4.6)", "pytest-flake8", "pytest-cov", "PyHamcrest (>=2.0.2)"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "black"
@@ -186,7 +186,7 @@ d = ["aiohttp (>=3.3.2)", "aiohttp-cors"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "bleach"
@@ -204,7 +204,7 @@ webencodings = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "blinker"
@@ -217,7 +217,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "cachetools"
@@ -230,7 +230,7 @@ python-versions = "~=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "certifi"
@@ -243,7 +243,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "cffi"
@@ -259,7 +259,7 @@ pycparser = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "charset-normalizer"
@@ -275,7 +275,7 @@ unicode_backport = ["unicodedata2"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "click"
@@ -288,7 +288,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "colorama"
@@ -301,7 +301,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "dataclasses"
@@ -314,7 +314,7 @@ python-versions = ">=3.6, <3.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "decorator"
@@ -327,7 +327,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "defusedxml"
@@ -340,7 +340,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "entrypoints"
@@ -353,7 +353,7 @@ python-versions = ">=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "gast"
@@ -366,7 +366,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "gitdb"
@@ -382,7 +382,7 @@ smmap = ">=3.0.1,<5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "gitpython"
@@ -399,7 +399,7 @@ typing-extensions = {version = ">=3.7.4.3", markers = "python_version < \"3.10\"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "google-pasta"
@@ -415,7 +415,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "greenlet"
@@ -431,7 +431,7 @@ docs = ["sphinx"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "grpcio"
@@ -450,7 +450,7 @@ protobuf = ["grpcio-tools (>=1.39.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "h5py"
@@ -467,7 +467,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "idna"
@@ -480,7 +480,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "importlib-metadata"
@@ -502,7 +502,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "ipykernel"
@@ -525,7 +525,7 @@ test = ["pytest (!=5.3.4)", "pytest-cov", "flaky", "nose", "jedi (<=0.17.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "ipython"
@@ -561,7 +561,7 @@ test = ["nose (>=0.10.1)", "requests", "testpath", "pygments", "nbformat", "ipyk
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "ipython-genutils"
@@ -574,7 +574,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "ipywidgets"
@@ -598,7 +598,7 @@ test = ["pytest (>=3.6.0)", "pytest-cov", "mock"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jedi"
@@ -618,7 +618,7 @@ testing = ["Django (<3.1)", "colorama", "docopt", "pytest (<6.0.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jinja2"
@@ -637,7 +637,7 @@ i18n = ["Babel (>=2.7)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "joblib"
@@ -650,7 +650,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jsonschema"
@@ -673,7 +673,7 @@ format_nongpl = ["idna", "jsonpointer (>1.13)", "webcolors", "rfc3986-validator 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jupyter-client"
@@ -698,7 +698,7 @@ test = ["async-generator", "ipykernel", "ipython", "mock", "pytest-asyncio", "py
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jupyter-core"
@@ -715,7 +715,7 @@ traitlets = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jupyterlab-pygments"
@@ -731,7 +731,7 @@ pygments = ">=2.4.1,<3"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "jupyterlab-widgets"
@@ -744,7 +744,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "keras-applications"
@@ -764,7 +764,7 @@ tests = ["pytest", "pytest-pep8", "pytest-xdist", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "keras-preprocessing"
@@ -786,7 +786,7 @@ tests = ["pandas", "pillow", "tensorflow", "keras", "pytest", "pytest-xdist", "p
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "markdown"
@@ -805,7 +805,7 @@ testing = ["coverage", "pyyaml"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "markupsafe"
@@ -818,7 +818,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "mistune"
@@ -831,7 +831,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "msgpack"
@@ -844,7 +844,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "mypy-extensions"
@@ -857,7 +857,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "nbclient"
@@ -882,7 +882,7 @@ test = ["codecov", "coverage", "ipython", "ipykernel", "ipywidgets", "pytest (>=
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "nbconvert"
@@ -917,7 +917,7 @@ webpdf = ["pyppeteer (==0.2.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "nbformat"
@@ -940,7 +940,7 @@ test = ["check-manifest", "fastjsonschema", "testpath", "pytest", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "nest-asyncio"
@@ -953,11 +953,11 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "notebook"
-version = "6.4.0"
+version = "6.4.10"
 description = "A web-based notebook environment for interactive computing"
 category = "main"
 optional = false
@@ -970,11 +970,12 @@ ipython-genutils = "*"
 jinja2 = "*"
 jupyter-client = ">=5.3.4"
 jupyter-core = ">=4.6.1"
-nbconvert = "*"
+nbconvert = ">=5"
 nbformat = "*"
+nest-asyncio = ">=1.5"
 prometheus-client = "*"
 pyzmq = ">=17"
-Send2Trash = ">=1.5.0"
+Send2Trash = ">=1.8.0"
 terminado = ">=0.8.3"
 tornado = ">=6.1"
 traitlets = ">=4.2.1"
@@ -987,7 +988,7 @@ test = ["pytest", "coverage", "requests", "nbval", "selenium", "pytest-cov", "re
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "numpy"
@@ -1000,7 +1001,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "opt-einsum"
@@ -1020,7 +1021,7 @@ tests = ["pytest", "pytest-cov", "pytest-pep8"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "packaging"
@@ -1036,7 +1037,7 @@ pyparsing = ">=2.0.2"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pandas"
@@ -1057,7 +1058,7 @@ test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pandocfilters"
@@ -1070,7 +1071,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "parso"
@@ -1087,7 +1088,7 @@ testing = ["docopt", "pytest (<6.0.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pathspec"
@@ -1100,7 +1101,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pexpect"
@@ -1116,7 +1117,7 @@ ptyprocess = ">=0.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pickleshare"
@@ -1129,7 +1130,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pillow"
@@ -1142,7 +1143,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "prometheus-client"
@@ -1158,7 +1159,7 @@ twisted = ["twisted"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "prompt-toolkit"
@@ -1174,7 +1175,7 @@ wcwidth = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "protobuf"
@@ -1190,7 +1191,7 @@ six = ">=1.9"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "ptyprocess"
@@ -1203,7 +1204,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "py"
@@ -1216,7 +1217,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pyarrow"
@@ -1232,7 +1233,7 @@ numpy = ">=1.16.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pycparser"
@@ -1245,7 +1246,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pydeck"
@@ -1268,7 +1269,7 @@ testing = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pygments"
@@ -1281,7 +1282,20 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
+
+[[package]]
+name = "pympler"
+version = "1.0.1"
+description = "A development tool to measure, monitor and analyze the memory behavior of Python objects."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/simple"
+reference = "default"
 
 [[package]]
 name = "pynvim"
@@ -1302,7 +1316,7 @@ test = ["pytest (>=3.4.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pyparsing"
@@ -1315,7 +1329,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pyrsistent"
@@ -1328,7 +1342,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "python-dateutil"
@@ -1344,7 +1358,7 @@ six = ">=1.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pytz"
@@ -1357,7 +1371,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pywin32"
@@ -1370,7 +1384,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pywinpty"
@@ -1383,7 +1397,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "pyzmq"
@@ -1400,7 +1414,7 @@ py = {version = "*", markers = "implementation_name == \"pypy\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "regex"
@@ -1413,7 +1427,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "requests"
@@ -1436,7 +1450,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "scikit-learn"
@@ -1455,7 +1469,7 @@ threadpoolctl = ">=2.0.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "scipy"
@@ -1471,23 +1485,25 @@ numpy = ">=1.14.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "send2trash"
-version = "1.7.1"
+version = "1.8.0"
 description = "Send file to trash natively under Mac OS X, Windows and Linux."
 category = "main"
 optional = false
 python-versions = "*"
 
 [package.extras]
+nativelib = ["pyobjc-framework-cocoa", "pywin32"]
+objc = ["pyobjc-framework-cocoa"]
 win32 = ["pywin32"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "six"
@@ -1500,7 +1516,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "smmap"
@@ -1513,7 +1529,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "streamlit"
@@ -1531,7 +1547,7 @@ base58 = "*"
 blinker = "*"
 cachetools = ">=4.0"
 click = ">=7.0,<8.0"
-gitpython = "*"
+gitpython = "!=3.1.19"
 numpy = "*"
 packaging = "*"
 pandas = ">=0.21.0"
@@ -1539,6 +1555,7 @@ pillow = ">=6.2.0"
 protobuf = ">=3.6.0,<3.11 || >3.11"
 pyarrow = "*"
 pydeck = ">=0.1.dev5"
+pympler = ">=0.9"
 python-dateutil = "*"
 requests = "*"
 toml = "*"
@@ -1550,7 +1567,7 @@ watchdog = {version = "*", markers = "platform_system != \"Darwin\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "tensorboard"
@@ -1572,7 +1589,7 @@ werkzeug = ">=0.11.15"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "tensorflow"
@@ -1603,7 +1620,7 @@ wrapt = ">=1.11.1"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "tensorflow-estimator"
@@ -1616,7 +1633,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "termcolor"
@@ -1629,7 +1646,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "terminado"
@@ -1650,7 +1667,7 @@ test = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "testpath"
@@ -1666,7 +1683,7 @@ test = ["pytest", "pathlib2"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "threadpoolctl"
@@ -1679,7 +1696,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "toml"
@@ -1692,7 +1709,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "toolz"
@@ -1705,7 +1722,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "tornado"
@@ -1718,7 +1735,7 @@ python-versions = ">= 3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "traitlets"
@@ -1739,7 +1756,7 @@ test = ["pytest", "mock"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "typed-ast"
@@ -1752,7 +1769,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "typing-extensions"
@@ -1765,7 +1782,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "tzlocal"
@@ -1781,7 +1798,7 @@ pytz = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "urllib3"
@@ -1799,7 +1816,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "validators"
@@ -1819,7 +1836,7 @@ test = ["pytest (>=2.2.3)", "flake8 (>=2.4.0)", "isort (>=4.2.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "watchdog"
@@ -1835,7 +1852,7 @@ watchmedo = ["PyYAML (>=3.10)", "argh (>=0.24.1)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "wcwidth"
@@ -1848,7 +1865,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "webencodings"
@@ -1861,7 +1878,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "werkzeug"
@@ -1880,7 +1897,7 @@ watchdog = ["watchdog"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "widgetsnbextension"
@@ -1896,7 +1913,7 @@ notebook = ">=4.4.1"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "wrapt"
@@ -1909,7 +1926,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [[package]]
 name = "zipp"
@@ -1926,12 +1943,12 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = 'default'
+reference = "default"
 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.6,<=3.7"
-content-hash = "55e9e0f5d5f003c1ad8fa9f1cb7246275c277847183d9c4cef957ead67ca1587"
+content-hash = "d179e6a73cec5e6162ff6f6caa1c9b3643080ff246a853cfa35504c754af863f"
 
 [metadata.files]
 absl-py = [
@@ -2307,12 +2324,28 @@ markdown = [
     {file = "Markdown-3.3.4.tar.gz", hash = "sha256:31b5b491868dcc87d6c24b7e3d19a0d730d59d3e46f4eea6430a321bed387a49"},
 ]
 markupsafe = [
+    {file = "MarkupSafe-2.0.1-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:d8446c54dc28c01e5a2dbac5a25f071f6653e6e40f3a8818e8b45d790fe6ef53"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:36bc903cbb393720fad60fc28c10de6acf10dc6cc883f3e24ee4012371399a38"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2d7d807855b419fc2ed3e631034685db6079889a1f01d5d9dac950f764da3dad"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:add36cb2dbb8b736611303cd3bfcee00afd96471b09cda130da3581cbdc56a6d"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:168cd0a3642de83558a5153c8bd34f175a9a6e7f6dc6384b9655d2697312a646"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-musllinux_1_1_aarch64.whl", hash = "sha256:4dc8f9fb58f7364b63fd9f85013b780ef83c11857ae79f2feda41e270468dd9b"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-musllinux_1_1_i686.whl", hash = "sha256:20dca64a3ef2d6e4d5d615a3fd418ad3bde77a47ec8a23d984a12b5b4c74491a"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-musllinux_1_1_x86_64.whl", hash = "sha256:cdfba22ea2f0029c9261a4bd07e830a8da012291fbe44dc794e488b6c9bb353a"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-win32.whl", hash = "sha256:99df47edb6bda1249d3e80fdabb1dab8c08ef3975f69aed437cb69d0a5de1e28"},
+    {file = "MarkupSafe-2.0.1-cp310-cp310-win_amd64.whl", hash = "sha256:e0f138900af21926a02425cf736db95be9f4af72ba1bb21453432a07f6082134"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:f9081981fe268bd86831e5c75f7de206ef275defcb82bc70740ae6dc507aee51"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:0955295dd5eec6cb6cc2fe1698f4c6d84af2e92de33fbcac4111913cd100a6ff"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:0446679737af14f45767963a1a9ef7620189912317d095f2d9ffa183a4d25d2b"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux2010_i686.whl", hash = "sha256:f826e31d18b516f653fe296d967d700fddad5901ae07c622bb3705955e1faa94"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux2010_x86_64.whl", hash = "sha256:fa130dd50c57d53368c9d59395cb5526eda596d3ffe36666cd81a44d56e48872"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:905fec760bd2fa1388bb5b489ee8ee5f7291d692638ea5f67982d968366bef9f"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:bf5d821ffabf0ef3533c39c518f3357b171a1651c1ff6827325e4489b0e46c3c"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:0d4b31cc67ab36e3392bbf3862cfbadac3db12bdd8b02a2731f509ed5b829724"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:baa1a4e8f868845af802979fcdbf0bb11f94f1cb7ced4c4b8a351bb60d108145"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-musllinux_1_1_aarch64.whl", hash = "sha256:deb993cacb280823246a026e3b2d81c493c53de6acfd5e6bfe31ab3402bb37dd"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-musllinux_1_1_i686.whl", hash = "sha256:63f3268ba69ace99cab4e3e3b5840b03340efed0948ab8f78d2fd87ee5442a4f"},
+    {file = "MarkupSafe-2.0.1-cp36-cp36m-musllinux_1_1_x86_64.whl", hash = "sha256:8d206346619592c6200148b01a2142798c989edcb9c896f9ac9722a99d4e77e6"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-win32.whl", hash = "sha256:6c4ca60fa24e85fe25b912b01e62cb969d69a23a5d5867682dd3e80b5b02581d"},
     {file = "MarkupSafe-2.0.1-cp36-cp36m-win_amd64.whl", hash = "sha256:b2f4bf27480f5e5e8ce285a8c8fd176c0b03e93dcc6646477d4630e83440c6a9"},
     {file = "MarkupSafe-2.0.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:0717a7390a68be14b8c793ba258e075c6f4ca819f15edfc2a3a027c823718567"},
@@ -2321,14 +2354,27 @@ markupsafe = [
     {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux2010_i686.whl", hash = "sha256:d7f9850398e85aba693bb640262d3611788b1f29a79f0c93c565694658f4071f"},
     {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:6a7fae0dd14cf60ad5ff42baa2e95727c3d81ded453457771d02b7d2b3f9c0c2"},
     {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:b7f2d075102dc8c794cbde1947378051c4e5180d52d276987b8d28a3bd58c17d"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:e9936f0b261d4df76ad22f8fee3ae83b60d7c3e871292cd42f40b81b70afae85"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:2a7d351cbd8cfeb19ca00de495e224dea7e7d919659c2841bbb7f420ad03e2d6"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:60bf42e36abfaf9aff1f50f52644b336d4f0a3fd6d8a60ca0d054ac9f713a864"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-musllinux_1_1_aarch64.whl", hash = "sha256:d6c7ebd4e944c85e2c3421e612a7057a2f48d478d79e61800d81468a8d842207"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-musllinux_1_1_i686.whl", hash = "sha256:f0567c4dc99f264f49fe27da5f735f414c4e7e7dd850cfd8e69f0862d7c74ea9"},
+    {file = "MarkupSafe-2.0.1-cp37-cp37m-musllinux_1_1_x86_64.whl", hash = "sha256:89c687013cb1cd489a0f0ac24febe8c7a666e6e221b783e53ac50ebf68e45d86"},
     {file = "MarkupSafe-2.0.1-cp37-cp37m-win32.whl", hash = "sha256:a30e67a65b53ea0a5e62fe23682cfe22712e01f453b95233b25502f7c61cb415"},
     {file = "MarkupSafe-2.0.1-cp37-cp37m-win_amd64.whl", hash = "sha256:611d1ad9a4288cf3e3c16014564df047fe08410e628f89805e475368bd304914"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-macosx_10_9_universal2.whl", hash = "sha256:5bb28c636d87e840583ee3adeb78172efc47c8b26127267f54a9c0ec251d41a9"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:be98f628055368795d818ebf93da628541e10b75b41c559fdf36d104c5787066"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux1_i686.whl", hash = "sha256:1d609f577dc6e1aa17d746f8bd3c31aa4d258f4070d61b2aa5c4166c1539de35"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:7d91275b0245b1da4d4cfa07e0faedd5b0812efc15b702576d103293e252af1b"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux2010_i686.whl", hash = "sha256:01a9b8ea66f1658938f65b93a85ebe8bc016e6769611be228d797c9d998dd298"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:47ab1e7b91c098ab893b828deafa1203de86d0bc6ab587b160f78fe6c4011f75"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:97383d78eb34da7e1fa37dd273c20ad4320929af65d156e35a5e2d89566d9dfb"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6fcf051089389abe060c9cd7caa212c707e58153afa2c649f00346ce6d260f1b"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:5855f8438a7d1d458206a2466bf82b0f104a3724bf96a1c781ab731e4201731a"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:3dd007d54ee88b46be476e293f48c85048603f5f516008bee124ddd891398ed6"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-musllinux_1_1_aarch64.whl", hash = "sha256:aca6377c0cb8a8253e493c6b451565ac77e98c2951c45f913e0b52facdcff83f"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-musllinux_1_1_i686.whl", hash = "sha256:04635854b943835a6ea959e948d19dcd311762c5c0c6e1f0e16ee57022669194"},
+    {file = "MarkupSafe-2.0.1-cp38-cp38-musllinux_1_1_x86_64.whl", hash = "sha256:6300b8454aa6930a24b9618fbb54b5a68135092bc666f7b06901f897fa5c2fee"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-win32.whl", hash = "sha256:023cb26ec21ece8dc3907c0e8320058b2e0cb3c55cf9564da612bc325bed5e64"},
     {file = "MarkupSafe-2.0.1-cp38-cp38-win_amd64.whl", hash = "sha256:984d76483eb32f1bcb536dc27e4ad56bba4baa70be32fa87152832cdd9db0833"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-macosx_10_9_universal2.whl", hash = "sha256:2ef54abee730b502252bcdf31b10dacb0a416229b72c18b19e24a4509f273d26"},
@@ -2338,6 +2384,12 @@ markupsafe = [
     {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux2010_i686.whl", hash = "sha256:4efca8f86c54b22348a5467704e3fec767b2db12fc39c6d963168ab1d3fc9135"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:ab3ef638ace319fa26553db0624c4699e31a28bb2a835c5faca8f8acf6a5a902"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:f8ba0e8349a38d3001fae7eadded3f6606f0da5d748ee53cc1dab1d6527b9509"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c47adbc92fc1bb2b3274c4b3a43ae0e4573d9fbff4f54cd484555edbf030baf1"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:37205cac2a79194e3750b0af2a5720d95f786a55ce7df90c3af697bfa100eaac"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:1f2ade76b9903f39aa442b4aadd2177decb66525062db244b35d71d0ee8599b6"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-musllinux_1_1_aarch64.whl", hash = "sha256:4296f2b1ce8c86a6aea78613c34bb1a672ea0e3de9c6ba08a960efe0b0a09047"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-musllinux_1_1_i686.whl", hash = "sha256:9f02365d4e99430a12647f09b6cc8bab61a6564363f313126f775eb4f6ef798e"},
+    {file = "MarkupSafe-2.0.1-cp39-cp39-musllinux_1_1_x86_64.whl", hash = "sha256:5b6d930f030f8ed98e3e6c98ffa0652bdb82601e7a016ec2ab5d7ff23baa78d1"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-win32.whl", hash = "sha256:10f82115e21dc0dfec9ab5c0223652f7197feb168c940f3ef61563fc2d6beb74"},
     {file = "MarkupSafe-2.0.1-cp39-cp39-win_amd64.whl", hash = "sha256:693ce3f9e70a6cf7d2fb9e6c9d8b204b6b39897a2c4a1aa65728d5ac97dcc1d8"},
     {file = "MarkupSafe-2.0.1.tar.gz", hash = "sha256:594c67807fb16238b30c44bdf74f36c02cdf22d1c8cda91ef8a0ed8dabf5620a"},
@@ -2397,8 +2449,8 @@ nest-asyncio = [
     {file = "nest_asyncio-1.5.1.tar.gz", hash = "sha256:afc5a1c515210a23c461932765691ad39e8eba6551c055ac8d5546e69250d0aa"},
 ]
 notebook = [
-    {file = "notebook-6.4.0-py3-none-any.whl", hash = "sha256:f7f0a71a999c7967d9418272ae4c3378a220bd28330fbfb49860e46cf8a5838a"},
-    {file = "notebook-6.4.0.tar.gz", hash = "sha256:9c4625e2a2aa49d6eae4ce20cbc3d8976db19267e32d2a304880e0c10bf8aef9"},
+    {file = "notebook-6.4.10-py3-none-any.whl", hash = "sha256:49cead814bff0945fcb2ee07579259418672ac175d3dc3d8102a4b0a656ed4df"},
+    {file = "notebook-6.4.10.tar.gz", hash = "sha256:2408a76bc6289283a8eecfca67e298ec83c67db51a4c2e1b713dd180bb39e90e"},
 ]
 numpy = [
     {file = "numpy-1.18.5-cp35-cp35m-macosx_10_9_intel.whl", hash = "sha256:e91d31b34fc7c2c8f756b4e902f901f856ae53a93399368d9a0dc7be17ed2ca0"},
@@ -2599,6 +2651,10 @@ pygments = [
     {file = "Pygments-2.9.0-py3-none-any.whl", hash = "sha256:d66e804411278594d764fc69ec36ec13d9ae9147193a1740cd34d272ca383b8e"},
     {file = "Pygments-2.9.0.tar.gz", hash = "sha256:a18f47b506a429f6f4b9df81bb02beab9ca21d0a5fee38ed15aef65f0545519f"},
 ]
+pympler = [
+    {file = "Pympler-1.0.1-py3-none-any.whl", hash = "sha256:d260dda9ae781e1eab6ea15bacb84015849833ba5555f141d2d9b7b7473b307d"},
+    {file = "Pympler-1.0.1.tar.gz", hash = "sha256:993f1a3599ca3f4fcd7160c7545ad06310c9e12f70174ae7ae8d4e25f6c5d3fa"},
+]
 pynvim = [
     {file = "pynvim-0.4.3.tar.gz", hash = "sha256:3a795378bde5e8092fbeb3a1a99be9c613d2685542f1db0e5c6fd467eed56dff"},
 ]
@@ -2670,15 +2726,21 @@ pyzmq = [
     {file = "pyzmq-22.2.0-cp37-cp37m-win32.whl", hash = "sha256:5cd2141bcba00d0f13f89ef48024d7482aaf21302dc57de049b90be648819caf"},
     {file = "pyzmq-22.2.0-cp37-cp37m-win_amd64.whl", hash = "sha256:af291a9ffb25a3e14f44dc4f5127d59fbfb5ef68333df9af630126fc4cb92000"},
     {file = "pyzmq-22.2.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:8663aa3d058ba9cd9ade9655b94b8d836052a29189f6dcf78735eeec19f4d5f1"},
+    {file = "pyzmq-22.2.0-cp38-cp38-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:50a463a2d72773cf5f601bdb562cd1d8fd63e68a7eeda9ba4f3748d71ff385bd"},
+    {file = "pyzmq-22.2.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:198d2c691c0cee06714a5fdb904fa42f19fa62822d24b4037e8198775e8d2a6d"},
     {file = "pyzmq-22.2.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6a0c468bf60392cf1eb025f8bb5d7dfe2c8898fcfdef6c098ca369a57e65028f"},
     {file = "pyzmq-22.2.0-cp38-cp38-win32.whl", hash = "sha256:6266a3d62d9ffbe81ab786b4ee079fd0a43620b009a14879afd094dd551c1a6e"},
     {file = "pyzmq-22.2.0-cp38-cp38-win_amd64.whl", hash = "sha256:206c9366ba308dba68be19cd187b2550bc4cea1b80d2aa19cb1356a1c2c173f6"},
     {file = "pyzmq-22.2.0-cp39-cp39-macosx_10_15_universal2.whl", hash = "sha256:78bfa1dddf623294165e7647bf6378dd8d7c1945c8dfb8535c74eef6a5841b89"},
     {file = "pyzmq-22.2.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:c4840a8ba94c65a44fabf439d8d9973f8e130fe4dd2cb722fd786c8c1f034754"},
+    {file = "pyzmq-22.2.0-cp39-cp39-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:2dd9a7472069ca2b0865a8a2aea80e31f9c8e49193afbf4f929900e491122418"},
+    {file = "pyzmq-22.2.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:e04af13ee1b34146b05273cafe7b8367dd2f39a58fcd4956dcc7263018fc7074"},
     {file = "pyzmq-22.2.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9445f44b51fe3a3f138bc2e13ac5a1f1875df6bb3445ae2044d69962bbf69acd"},
     {file = "pyzmq-22.2.0-cp39-cp39-win32.whl", hash = "sha256:7d042f1e58779d0301cc0efbe462ad818f1ff01e13992d08b0b9167c170f713c"},
     {file = "pyzmq-22.2.0-cp39-cp39-win_amd64.whl", hash = "sha256:f2943ad121f880f4b89be952d3a49c3ea39ba6e02abe6d3c8029331602a33b91"},
     {file = "pyzmq-22.2.0-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:1068ab72e78a1279a2b8c1607234d0999f90773d9981e7c80ed35e3bf2f4ccfc"},
+    {file = "pyzmq-22.2.0-pp37-pypy37_pp73-manylinux_2_12_i686.manylinux2010_i686.whl", hash = "sha256:2776ccc2f693cc9d5e89e4432e2e0c067499bf6621aec6961a5d894dd0f042be"},
+    {file = "pyzmq-22.2.0-pp37-pypy37_pp73-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:37513cb842e2fd3e7c15141ef4e4152ef94c0a35269a62cabf6f2aaef3a59b30"},
     {file = "pyzmq-22.2.0-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:daf87bc30e4a00aca33b1b1e10414246f4f5714c39db04be0e498fae1ab1e767"},
     {file = "pyzmq-22.2.0.tar.gz", hash = "sha256:ff6454bd8067463380ea992a7cbe623bd61aeb83a8f19d47eb221eec3f798080"},
 ]
@@ -2784,8 +2846,8 @@ scipy = [
     {file = "scipy-1.5.4.tar.gz", hash = "sha256:4a453d5e5689de62e5d38edf40af3f17560bfd63c9c5bd228c18c1f99afa155b"},
 ]
 send2trash = [
-    {file = "Send2Trash-1.7.1-py3-none-any.whl", hash = "sha256:c20fee8c09378231b3907df9c215ec9766a84ee20053d99fbad854fe8bd42159"},
-    {file = "Send2Trash-1.7.1.tar.gz", hash = "sha256:17730aa0a33ab82ed6ca76be3bb25f0433d0014f1ccf63c979bab13a5b9db2b2"},
+    {file = "Send2Trash-1.8.0-py3-none-any.whl", hash = "sha256:f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08"},
+    {file = "Send2Trash-1.8.0.tar.gz", hash = "sha256:d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d"},
 ]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},

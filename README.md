@@ -8,13 +8,15 @@ The Streamlit app is [implemented in only 150 lines of Python](https://github.co
 ![In-use Animation](https://github.com/streamlit/demo-face-gan/blob/master/GAN-demo.gif?raw=true "In-use Animation")
 
 ## How to run this demo
-The demo requires Python 3.6 or 3.7 (The version of TensorFlow we specify in [requirements.txt](https://github.com/streamlit/demo-face-gan/blob/master/requirements.txt#L14) is not supported in Python 3.8+). **We suggest creating a new virtual environment**, then running:
+
+The demo requires Python 3.6 or 3.7 (The version of TensorFlow we use is not supported in Python 3.8+). 
+**We suggest creating a new virtual environment**, then running:
 
 ```
 git clone https://github.com/streamlit/demo-face-gan.git
 cd demo-face-gan
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+poetry install
+poetry run streamlit run streamlit_app.py
 ```
 
 ## Model Bias 

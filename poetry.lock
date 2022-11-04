@@ -12,7 +12,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "altair"
@@ -31,12 +31,12 @@ pandas = ">=0.18"
 toolz = "*"
 
 [package.extras]
-dev = ["black", "docutils", "ipython", "flake8", "pytest", "sphinx", "m2r", "vega-datasets", "recommonmark"]
+dev = ["black", "docutils", "flake8", "ipython", "m2r", "pytest", "recommonmark", "sphinx", "vega-datasets"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "appdirs"
@@ -49,7 +49,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "appnope"
@@ -62,7 +62,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "argon2-cffi"
@@ -77,14 +77,14 @@ cffi = ">=1.0.0"
 six = "*"
 
 [package.extras]
-dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pytest", "sphinx", "wheel", "pre-commit"]
+dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pre-commit", "pytest", "sphinx", "wheel"]
 docs = ["sphinx"]
 tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pytest"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "astor"
@@ -97,7 +97,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "async-generator"
@@ -110,7 +110,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "attrs"
@@ -121,15 +121,15 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [package.extras]
-dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface", "furo", "sphinx", "sphinx-notfound-page", "pre-commit"]
-docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
-tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins", "zope.interface"]
-tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "mypy", "pytest-mypy-plugins"]
+dev = ["coverage[toml] (>=5.0.2)", "furo", "hypothesis", "mypy", "pre-commit", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "six", "sphinx", "sphinx-notfound-page", "zope.interface"]
+docs = ["furo", "sphinx", "sphinx-notfound-page", "zope.interface"]
+tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "mypy", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "six", "zope.interface"]
+tests-no-zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "mypy", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "six"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "backcall"
@@ -142,7 +142,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "base58"
@@ -153,12 +153,12 @@ optional = false
 python-versions = ">=3.5"
 
 [package.extras]
-tests = ["pytest (>=4.6)", "pytest-flake8", "pytest-cov", "PyHamcrest (>=2.0.2)", "coveralls", "pytest-benchmark"]
+tests = ["PyHamcrest (>=2.0.2)", "coveralls", "pytest (>=4.6)", "pytest-benchmark", "pytest-cov", "pytest-flake8"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "black"
@@ -186,7 +186,7 @@ d = ["aiohttp (>=3.3.2)", "aiohttp-cors"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "bleach"
@@ -204,7 +204,7 @@ webencodings = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "blinker"
@@ -217,7 +217,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "cachetools"
@@ -230,7 +230,7 @@ python-versions = "~=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "certifi"
@@ -243,7 +243,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "cffi"
@@ -259,7 +259,7 @@ pycparser = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "charset-normalizer"
@@ -270,12 +270,12 @@ optional = false
 python-versions = ">=3.5.0"
 
 [package.extras]
-unicode_backport = ["unicodedata2"]
+unicode-backport = ["unicodedata2"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "click"
@@ -288,7 +288,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "colorama"
@@ -301,7 +301,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "dataclasses"
@@ -314,7 +314,7 @@ python-versions = ">=3.6, <3.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "decorator"
@@ -327,7 +327,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "defusedxml"
@@ -340,7 +340,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "entrypoints"
@@ -353,7 +353,7 @@ python-versions = ">=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "gast"
@@ -366,7 +366,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "gitdb"
@@ -382,7 +382,7 @@ smmap = ">=3.0.1,<5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "gitpython"
@@ -399,7 +399,7 @@ typing-extensions = {version = ">=3.7.4.3", markers = "python_version < \"3.10\"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "google-pasta"
@@ -415,7 +415,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "greenlet"
@@ -426,12 +426,12 @@ optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
 
 [package.extras]
-docs = ["sphinx"]
+docs = ["Sphinx"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "grpcio"
@@ -450,7 +450,7 @@ protobuf = ["grpcio-tools (>=1.39.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "h5py"
@@ -467,7 +467,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "idna"
@@ -480,7 +480,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "importlib-metadata"
@@ -495,14 +495,14 @@ typing-extensions = {version = ">=3.6.4", markers = "python_version < \"3.8\""}
 zipp = ">=0.5"
 
 [package.extras]
-docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
+docs = ["jaraco.packaging (>=8.2)", "rst.linker (>=1.9)", "sphinx"]
 perf = ["ipython"]
-testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "packaging", "pep517", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy", "importlib-resources (>=1.3)"]
+testing = ["flufl.flake8", "importlib-resources (>=1.3)", "packaging", "pep517", "pyfakefs", "pytest (>=4.6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-flake8", "pytest-mypy", "pytest-perf (>=0.9.2)"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "ipykernel"
@@ -520,12 +520,12 @@ tornado = ">=4.2"
 traitlets = ">=4.1.0"
 
 [package.extras]
-test = ["pytest (!=5.3.4)", "pytest-cov", "flaky", "nose", "jedi (<=0.17.2)"]
+test = ["flaky", "jedi (<=0.17.2)", "nose", "pytest (!=5.3.4)", "pytest-cov"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "ipython"
@@ -545,6 +545,7 @@ pexpect = {version = "*", markers = "sys_platform != \"win32\""}
 pickleshare = "*"
 prompt-toolkit = ">=2.0.0,<3.0.0 || >3.0.0,<3.0.1 || >3.0.1,<3.1.0"
 pygments = "*"
+setuptools = ">=18.5"
 traitlets = ">=4.2"
 
 [package.extras]
@@ -553,15 +554,15 @@ doc = ["Sphinx (>=1.3)"]
 kernel = ["ipykernel"]
 nbconvert = ["nbconvert"]
 nbformat = ["nbformat"]
-notebook = ["notebook", "ipywidgets"]
+notebook = ["ipywidgets", "notebook"]
 parallel = ["ipyparallel"]
 qtconsole = ["qtconsole"]
-test = ["nose (>=0.10.1)", "requests", "testpath", "pygments", "nbformat", "ipykernel", "numpy (>=1.14)"]
+test = ["ipykernel", "nbformat", "nose (>=0.10.1)", "numpy (>=1.14)", "pygments", "requests", "testpath"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "ipython-genutils"
@@ -574,7 +575,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "ipywidgets"
@@ -593,12 +594,12 @@ traitlets = ">=4.3.1"
 widgetsnbextension = ">=3.5.0,<3.6.0"
 
 [package.extras]
-test = ["pytest (>=3.6.0)", "pytest-cov", "mock"]
+test = ["mock", "pytest (>=3.6.0)", "pytest-cov"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jedi"
@@ -618,7 +619,7 @@ testing = ["Django (<3.1)", "colorama", "docopt", "pytest (<6.0.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jinja2"
@@ -637,7 +638,7 @@ i18n = ["Babel (>=2.7)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "joblib"
@@ -650,7 +651,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jsonschema"
@@ -664,16 +665,17 @@ python-versions = "*"
 attrs = ">=17.4.0"
 importlib-metadata = {version = "*", markers = "python_version < \"3.8\""}
 pyrsistent = ">=0.14.0"
+setuptools = "*"
 six = ">=1.11.0"
 
 [package.extras]
 format = ["idna", "jsonpointer (>1.13)", "rfc3987", "strict-rfc3339", "webcolors"]
-format_nongpl = ["idna", "jsonpointer (>1.13)", "webcolors", "rfc3986-validator (>0.1.0)", "rfc3339-validator"]
+format-nongpl = ["idna", "jsonpointer (>1.13)", "rfc3339-validator", "rfc3986-validator (>0.1.0)", "webcolors"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jupyter-client"
@@ -693,12 +695,12 @@ traitlets = "*"
 
 [package.extras]
 doc = ["sphinx (>=1.3.6)", "sphinx-rtd-theme", "sphinxcontrib-github-alt"]
-test = ["async-generator", "ipykernel", "ipython", "mock", "pytest-asyncio", "pytest-timeout", "pytest", "mypy", "pre-commit", "jedi (<0.18)"]
+test = ["async-generator", "ipykernel", "ipython", "jedi (<0.18)", "mock", "mypy", "pre-commit", "pytest", "pytest-asyncio", "pytest-timeout"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jupyter-core"
@@ -715,7 +717,7 @@ traitlets = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jupyterlab-pygments"
@@ -731,7 +733,7 @@ pygments = ">=2.4.1,<3"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "jupyterlab-widgets"
@@ -744,7 +746,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "keras-applications"
@@ -759,12 +761,12 @@ h5py = "*"
 numpy = ">=1.9.1"
 
 [package.extras]
-tests = ["pytest", "pytest-pep8", "pytest-xdist", "pytest-cov"]
+tests = ["pytest", "pytest-cov", "pytest-pep8", "pytest-xdist"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "keras-preprocessing"
@@ -779,14 +781,14 @@ numpy = ">=1.9.1"
 six = ">=1.9.0"
 
 [package.extras]
-image = ["scipy (>=0.14)", "Pillow (>=5.2.0)"]
+image = ["Pillow (>=5.2.0)", "scipy (>=0.14)"]
 pep8 = ["flake8"]
-tests = ["pandas", "pillow", "tensorflow", "keras", "pytest", "pytest-xdist", "pytest-cov"]
+tests = ["Pillow", "keras", "pandas", "pytest", "pytest-cov", "pytest-xdist", "tensorflow"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "markdown"
@@ -805,7 +807,7 @@ testing = ["coverage", "pyyaml"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "markupsafe"
@@ -818,7 +820,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "mistune"
@@ -831,7 +833,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "msgpack"
@@ -844,7 +846,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "mypy-extensions"
@@ -857,7 +859,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "nbclient"
@@ -875,14 +877,14 @@ nest-asyncio = "*"
 traitlets = ">=4.2"
 
 [package.extras]
-dev = ["codecov", "coverage", "ipython", "ipykernel", "ipywidgets", "pytest (>=4.1)", "pytest-cov (>=2.6.1)", "check-manifest", "flake8", "mypy", "tox", "bumpversion", "xmltodict", "pip (>=18.1)", "wheel (>=0.31.0)", "setuptools (>=38.6.0)", "twine (>=1.11.0)", "black"]
-sphinx = ["Sphinx (>=1.7)", "sphinx-book-theme", "mock", "moto", "myst-parser"]
-test = ["codecov", "coverage", "ipython", "ipykernel", "ipywidgets", "pytest (>=4.1)", "pytest-cov (>=2.6.1)", "check-manifest", "flake8", "mypy", "tox", "bumpversion", "xmltodict", "pip (>=18.1)", "wheel (>=0.31.0)", "setuptools (>=38.6.0)", "twine (>=1.11.0)", "black"]
+dev = ["black", "bumpversion", "check-manifest", "codecov", "coverage", "flake8", "ipykernel", "ipython", "ipywidgets", "mypy", "pip (>=18.1)", "pytest (>=4.1)", "pytest-cov (>=2.6.1)", "setuptools (>=38.6.0)", "tox", "twine (>=1.11.0)", "wheel (>=0.31.0)", "xmltodict"]
+sphinx = ["Sphinx (>=1.7)", "mock", "moto", "myst-parser", "sphinx-book-theme"]
+test = ["black", "bumpversion", "check-manifest", "codecov", "coverage", "flake8", "ipykernel", "ipython", "ipywidgets", "mypy", "pip (>=18.1)", "pytest (>=4.1)", "pytest-cov (>=2.6.1)", "setuptools (>=38.6.0)", "tox", "twine (>=1.11.0)", "wheel (>=0.31.0)", "xmltodict"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "nbconvert"
@@ -908,16 +910,16 @@ testpath = "*"
 traitlets = ">=4.2"
 
 [package.extras]
-all = ["pytest", "pytest-cov", "pytest-dependency", "ipykernel", "ipywidgets (>=7)", "pyppeteer (==0.2.2)", "tornado (>=4.0)", "sphinx (>=1.5.1)", "sphinx-rtd-theme", "nbsphinx (>=0.2.12)", "ipython"]
-docs = ["sphinx (>=1.5.1)", "sphinx-rtd-theme", "nbsphinx (>=0.2.12)", "ipython"]
+all = ["ipykernel", "ipython", "ipywidgets (>=7)", "nbsphinx (>=0.2.12)", "pyppeteer (==0.2.2)", "pytest", "pytest-cov", "pytest-dependency", "sphinx (>=1.5.1)", "sphinx-rtd-theme", "tornado (>=4.0)"]
+docs = ["ipython", "nbsphinx (>=0.2.12)", "sphinx (>=1.5.1)", "sphinx-rtd-theme"]
 serve = ["tornado (>=4.0)"]
-test = ["pytest", "pytest-cov", "pytest-dependency", "ipykernel", "ipywidgets (>=7)", "pyppeteer (==0.2.2)"]
+test = ["ipykernel", "ipywidgets (>=7)", "pyppeteer (==0.2.2)", "pytest", "pytest-cov", "pytest-dependency"]
 webpdf = ["pyppeteer (==0.2.2)"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "nbformat"
@@ -935,12 +937,12 @@ traitlets = ">=4.1"
 
 [package.extras]
 fast = ["fastjsonschema"]
-test = ["check-manifest", "fastjsonschema", "testpath", "pytest", "pytest-cov"]
+test = ["check-manifest", "fastjsonschema", "pytest", "pytest-cov", "testpath"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "nest-asyncio"
@@ -953,7 +955,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "notebook"
@@ -981,14 +983,14 @@ tornado = ">=6.1"
 traitlets = ">=4.2.1"
 
 [package.extras]
-docs = ["sphinx", "nbsphinx", "sphinxcontrib-github-alt", "sphinx-rtd-theme", "myst-parser"]
+docs = ["myst-parser", "nbsphinx", "sphinx", "sphinx-rtd-theme", "sphinxcontrib-github-alt"]
 json-logging = ["json-logging"]
-test = ["pytest", "coverage", "requests", "nbval", "selenium", "pytest-cov", "requests-unixsocket"]
+test = ["coverage", "nbval", "pytest", "pytest-cov", "requests", "requests-unixsocket", "selenium"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "numpy"
@@ -1001,7 +1003,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "opt-einsum"
@@ -1015,13 +1017,13 @@ python-versions = ">=3.5"
 numpy = ">=1.7"
 
 [package.extras]
-docs = ["sphinx (==1.2.3)", "sphinxcontrib-napoleon", "sphinx-rtd-theme", "numpydoc"]
+docs = ["numpydoc", "sphinx (==1.2.3)", "sphinx-rtd-theme", "sphinxcontrib-napoleon"]
 tests = ["pytest", "pytest-cov", "pytest-pep8"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "packaging"
@@ -1037,7 +1039,7 @@ pyparsing = ">=2.0.2"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pandas"
@@ -1053,12 +1055,12 @@ python-dateutil = ">=2.6.1"
 pytz = ">=2017.2"
 
 [package.extras]
-test = ["pytest (>=4.0.2)", "pytest-xdist", "hypothesis (>=3.58)"]
+test = ["hypothesis (>=3.58)", "pytest (>=4.0.2)", "pytest-xdist"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pandocfilters"
@@ -1071,7 +1073,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "parso"
@@ -1088,7 +1090,7 @@ testing = ["docopt", "pytest (<6.0.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pathspec"
@@ -1101,7 +1103,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pexpect"
@@ -1117,7 +1119,7 @@ ptyprocess = ">=0.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pickleshare"
@@ -1130,7 +1132,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pillow"
@@ -1143,7 +1145,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "prometheus-client"
@@ -1159,7 +1161,7 @@ twisted = ["twisted"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "prompt-toolkit"
@@ -1175,7 +1177,7 @@ wcwidth = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "protobuf"
@@ -1191,7 +1193,7 @@ six = ">=1.9"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "ptyprocess"
@@ -1204,7 +1206,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "py"
@@ -1217,7 +1219,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pyarrow"
@@ -1233,7 +1235,7 @@ numpy = ">=1.16.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pycparser"
@@ -1246,7 +1248,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pydeck"
@@ -1269,7 +1271,7 @@ testing = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pygments"
@@ -1282,7 +1284,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pympler"
@@ -1295,7 +1297,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pynvim"
@@ -1316,7 +1318,7 @@ test = ["pytest (>=3.4.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pyparsing"
@@ -1329,7 +1331,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pyrsistent"
@@ -1342,7 +1344,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "python-dateutil"
@@ -1358,7 +1360,7 @@ six = ">=1.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pytz"
@@ -1371,7 +1373,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pywin32"
@@ -1384,7 +1386,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pywinpty"
@@ -1397,7 +1399,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "pyzmq"
@@ -1414,7 +1416,7 @@ py = {version = "*", markers = "implementation_name == \"pypy\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "regex"
@@ -1427,7 +1429,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "requests"
@@ -1445,12 +1447,12 @@ urllib3 = ">=1.21.1,<1.27"
 
 [package.extras]
 socks = ["PySocks (>=1.5.6,!=1.5.7)", "win-inet-pton"]
-use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
+use-chardet-on-py3 = ["chardet (>=3.0.2,<5)"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "scikit-learn"
@@ -1469,7 +1471,7 @@ threadpoolctl = ">=2.0.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "scipy"
@@ -1485,7 +1487,7 @@ numpy = ">=1.14.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "send2trash"
@@ -1496,14 +1498,31 @@ optional = false
 python-versions = "*"
 
 [package.extras]
-nativelib = ["pyobjc-framework-cocoa", "pywin32"]
-objc = ["pyobjc-framework-cocoa"]
+nativelib = ["pyobjc-framework-Cocoa", "pywin32"]
+objc = ["pyobjc-framework-Cocoa"]
 win32 = ["pywin32"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
+
+[[package]]
+name = "setuptools"
+version = "59.6.0"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+docs = ["furo", "jaraco.packaging (>=8.2)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "rst.linker (>=1.9)", "sphinx", "sphinx-inline-tabs", "sphinxcontrib-towncrier"]
+testing = ["flake8-2020", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "mock", "paver", "pip (>=19.1)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-flake8", "pytest-mypy", "pytest-virtualenv (>=1.2.7)", "pytest-xdist", "sphinx", "virtualenv (>=13.0.0)", "wheel"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/simple"
+reference = 'default'
 
 [[package]]
 name = "six"
@@ -1516,7 +1535,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "smmap"
@@ -1529,7 +1548,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "streamlit"
@@ -1567,7 +1586,7 @@ watchdog = {version = "*", markers = "platform_system != \"Darwin\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "tensorboard"
@@ -1575,7 +1594,7 @@ version = "1.15.0"
 description = "TensorBoard lets you watch Tensors Flow"
 category = "main"
 optional = false
-python-versions = ">= 2.7, != 3.0.*, != 3.1.*"
+python-versions = ">=2.7,<3.0.0 || >=3.2.0"
 
 [package.dependencies]
 absl-py = ">=0.4"
@@ -1583,13 +1602,15 @@ grpcio = ">=1.6.3"
 markdown = ">=2.6.8"
 numpy = ">=1.12.0"
 protobuf = ">=3.6.0"
+setuptools = ">=41.0.0"
 six = ">=1.10.0"
 werkzeug = ">=0.11.15"
+wheel = {version = ">=0.26", markers = "python_version >= \"3\""}
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "tensorflow"
@@ -1615,12 +1636,13 @@ six = ">=1.10.0"
 tensorboard = ">=1.15.0,<1.16.0"
 tensorflow-estimator = "1.15.1"
 termcolor = ">=1.1.0"
+wheel = {version = ">=0.26", markers = "python_version >= \"3\""}
 wrapt = ">=1.11.1"
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "tensorflow-estimator"
@@ -1633,7 +1655,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "termcolor"
@@ -1646,7 +1668,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "terminado"
@@ -1667,7 +1689,7 @@ test = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "testpath"
@@ -1678,12 +1700,12 @@ optional = false
 python-versions = ">= 3.5"
 
 [package.extras]
-test = ["pytest", "pathlib2"]
+test = ["pathlib2", "pytest"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "threadpoolctl"
@@ -1696,7 +1718,7 @@ python-versions = ">=3.6"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "toml"
@@ -1709,7 +1731,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "toolz"
@@ -1722,7 +1744,7 @@ python-versions = ">=3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "tornado"
@@ -1735,7 +1757,7 @@ python-versions = ">= 3.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "traitlets"
@@ -1751,12 +1773,12 @@ ipython-genutils = "*"
 six = "*"
 
 [package.extras]
-test = ["pytest", "mock"]
+test = ["mock", "pytest"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "typed-ast"
@@ -1769,7 +1791,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "typing-extensions"
@@ -1782,7 +1804,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "tzlocal"
@@ -1798,7 +1820,7 @@ pytz = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "urllib3"
@@ -1810,13 +1832,13 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 
 [package.extras]
 brotli = ["brotlipy (>=0.6.0)"]
-secure = ["pyOpenSSL (>=0.14)", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "certifi", "ipaddress"]
+secure = ["certifi", "cryptography (>=1.3.4)", "idna (>=2.0.0)", "ipaddress", "pyOpenSSL (>=0.14)"]
 socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "validators"
@@ -1831,12 +1853,12 @@ decorator = ">=3.4.0"
 six = ">=1.4.0"
 
 [package.extras]
-test = ["pytest (>=2.2.3)", "flake8 (>=2.4.0)", "isort (>=4.2.2)"]
+test = ["flake8 (>=2.4.0)", "isort (>=4.2.2)", "pytest (>=2.2.3)"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "watchdog"
@@ -1852,7 +1874,7 @@ watchmedo = ["PyYAML (>=3.10)", "argh (>=0.24.1)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "wcwidth"
@@ -1865,7 +1887,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "webencodings"
@@ -1878,7 +1900,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "werkzeug"
@@ -1897,7 +1919,23 @@ watchdog = ["watchdog"]
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
+
+[[package]]
+name = "wheel"
+version = "0.37.1"
+description = "A built-package format for Python"
+category = "main"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
+
+[package.extras]
+test = ["pytest (>=3.0.0)", "pytest-cov"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.python.org/simple"
+reference = 'default'
 
 [[package]]
 name = "widgetsnbextension"
@@ -1913,7 +1951,7 @@ notebook = ">=4.4.1"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "wrapt"
@@ -1926,7 +1964,7 @@ python-versions = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [[package]]
 name = "zipp"
@@ -1937,18 +1975,18 @@ optional = false
 python-versions = ">=3.6"
 
 [package.extras]
-docs = ["sphinx", "jaraco.packaging (>=8.2)", "rst.linker (>=1.9)"]
-testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.0.1)", "jaraco.itertools", "func-timeout", "pytest-black (>=0.3.7)", "pytest-mypy"]
+docs = ["jaraco.packaging (>=8.2)", "rst.linker (>=1.9)", "sphinx"]
+testing = ["func-timeout", "jaraco.itertools", "pytest (>=4.6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.0.1)", "pytest-flake8", "pytest-mypy"]
 
 [package.source]
 type = "legacy"
 url = "https://pypi.python.org/simple"
-reference = "default"
+reference = 'default'
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.6,<=3.7"
-content-hash = "d179e6a73cec5e6162ff6f6caa1c9b3643080ff246a853cfa35504c754af863f"
+python-versions = ">=3.6,<=3.7.15"
+content-hash = "5f2a65f4c6c271e23414ee43c1ff3dd4884a95b5ed8053bceb8bec8bd7b0aaac"
 
 [metadata.files]
 absl-py = [
@@ -2849,6 +2887,10 @@ send2trash = [
     {file = "Send2Trash-1.8.0-py3-none-any.whl", hash = "sha256:f20eaadfdb517eaca5ce077640cb261c7d2698385a6a0f072a4a5447fd49fa08"},
     {file = "Send2Trash-1.8.0.tar.gz", hash = "sha256:d2c24762fd3759860a0aff155e45871447ea58d2be6bdd39b5c8f966a0c99c2d"},
 ]
+setuptools = [
+    {file = "setuptools-59.6.0-py3-none-any.whl", hash = "sha256:4ce92f1e1f8f01233ee9952c04f6b81d1e02939d6e1b488428154974a4d0783e"},
+    {file = "setuptools-59.6.0.tar.gz", hash = "sha256:22c7348c6d2976a52632c67f7ab0cdf40147db7789f9aed18734643fe9cf3373"},
+]
 six = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
@@ -3029,6 +3071,10 @@ webencodings = [
 werkzeug = [
     {file = "Werkzeug-2.0.1-py3-none-any.whl", hash = "sha256:6c1ec500dcdba0baa27600f6a22f6333d8b662d22027ff9f6202e3367413caa8"},
     {file = "Werkzeug-2.0.1.tar.gz", hash = "sha256:1de1db30d010ff1af14a009224ec49ab2329ad2cde454c8a708130642d579c42"},
+]
+wheel = [
+    {file = "wheel-0.37.1-py2.py3-none-any.whl", hash = "sha256:4bdcd7d840138086126cd09254dc6195fb4fc6f01c050a1d7236f2630db1d22a"},
+    {file = "wheel-0.37.1.tar.gz", hash = "sha256:e9a504e793efbca1b8e0e9cb979a249cf4a0a7b5b8c9e8b65a5e39d49529c1c4"},
 ]
 widgetsnbextension = [
     {file = "widgetsnbextension-3.5.1-py2.py3-none-any.whl", hash = "sha256:bd314f8ceb488571a5ffea6cc5b9fc6cba0adaf88a9d2386b93a489751938bcd"},
